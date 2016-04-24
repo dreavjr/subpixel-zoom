@@ -29,6 +29,10 @@ Remember to change /usr/local/include/eigen3 for the actual path where you insta
 
 I tested it on OS X/HomeBrew + GCC, but it should work on other unices (including Linux) without difficulty.
 
+# Using
+
+Running the programs without options show a short help screen. Most options are self-explicative. In doubt, you can use the default values.
+
 # Credits
 
 I based the initial version of subpixel-zoom from this blog post: http://ruletheweb.co.uk/blog/2014/02/subpixel-aware-image-scaling/  While the original is concerned with binarization, I wanted to preserve grayscales.
