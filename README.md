@@ -19,7 +19,8 @@ If you want to compile pixel-estimate-quadratic, you additionally need Eigen 3: 
 
 Once you have the dependencies installed, compilation is a breeze:
 
-```g++ src/subpixel-zoom.cpp -o subpixel-zoom -std=c++11 -lgd -Wall -O3
+```
+g++ src/subpixel-zoom.cpp -o subpixel-zoom -std=c++11 -lgd -Wall -O3
 g++ src/pixel-estimate-quadratic.cpp -o pixel-estimate-quadratic -std=c++11 -I/usr/local/include/eigen3 -lgd -Wall -O3 -ffast-math -fassociative-math -DSOLVER_SPARSE
 g++ src/pixel-estimate-ising.cpp -o pixel-estimate-ising -std=c++11 -lgd -Wall -O3 -ffast-math -fassociative-math
 g++ src/pixel-estimate-ising-smoothed.cpp -o pixel-estimate-ising-smoothed -std=c++11 -lgd -Wall -O3 -ffast-math -fassociative-math
